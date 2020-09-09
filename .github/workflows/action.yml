@@ -3,7 +3,7 @@ name: 'Automatic_check CHENWUWANJIAN'
 on:
   push:
   schedule:
-     - cron: '5 */2 * * *'
+     - cron: '2,58 8,11,12,17,18,22 * * *'  # At minute 2 and 58 past hour 8, 11, 12, 17, 18, and 22
 
 
 jobs:
