@@ -92,4 +92,4 @@ python upload.py -c cookie路径 -l n -f 上报信息的文件路径
 
 ### Actions -build
 
-![image-20200909223712295](C:\Users\Levick\source\github\ncov\img\image-20200909223712295.png)
+![image-20200909223712295](./img/image-20200909223712295.png)
