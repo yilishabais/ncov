@@ -2,7 +2,15 @@
 
 相比@anadfox233 @Hon0nly的版本添加了github actions自动执行功能
 
-> 使用时注意, fork之后应该在settings-secrets中填写对应的帐号与密码, 并在.github/workflows/action.yml文件中加入对应账号密码.
+> 使用时注意, fork之后应该在Github-settings-secrets中填写对应的帐号与密码
+>
+> ![image-20200909222919501](./img/image-20200909222919501.png)
+>
+> 新建secret名称为变量名，内容为变量的值。
+>
+> 在.github/workflows/action.yml文件中加入对应账号密码.
+>
+> ![image-20200909223214237](./img/image-20200909223214237.png)
 
 ## 注意
 本脚本内置了南校区和北校区的经纬度,**默认定位为南校区**
@@ -80,3 +88,8 @@ python upload.py -c cookie路径 -l n -f 上报信息的文件路径
 ### cookie上报
 
 ![cookie上报](https://ning-wang.oss-cn-beijing.aliyuncs.com/blog-imags/cookie上报.gif)
+
+
+### Actions -build
+
+![image-20200909223712295](C:\Users\Levick\source\github\ncov\img\image-20200909223712295.png)
