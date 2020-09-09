@@ -25,5 +25,5 @@ jobs:
         pip install -r ./requirements.txt
     - name: Levick
       run: |
-        python ./upload.py -n 1 -u ${{ secrets.NAME.NCOV }} -p ${{ secrets.PSW_NCOV }} -f ./data/upload.txt
-   
+        python ./upload.py -n 1 -u ${{ secrets.NAME.NCOV }} -p ${{ secrets.PSW_NCOV }} -f ./data/upload.txt 
+#find username and password in github secrets, please add yours to github secrets if newly forked
